@@ -51,7 +51,7 @@ const EditContact = ({ contacts, updateContact }) => {
     };
 
     updateContact(data);
-    toast.success("Contact updated successfully!!");
+    toast.success("User Information updated successfully!!");
     history.push("/");
   };
 
@@ -93,7 +93,7 @@ const EditContact = ({ contacts, updateContact }) => {
               </div>
               <div className="form-group d-flex align-items-center justify-content-between my-2">
                 <button type="submit" className="btn btn-primary">
-                  Update Contact
+                  Update User
                 </button>
                 <button
                   type="button"
@@ -105,7 +105,7 @@ const EditContact = ({ contacts, updateContact }) => {
               </div>
             </form>
           ) : (
-            <h1 className="text-center">No Contact Found</h1>
+            <h1 className="text-center">No User Found</h1>
           )}
         </div>
       </div>

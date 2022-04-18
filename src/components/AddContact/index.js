@@ -37,13 +37,13 @@ const AddPost = ({ contacts, addContact }) => {
     };
 
     addContact(data);
-    toast.success("Contact added successfully!!");
+    toast.success("User added successfully!!");
     history.push("/");
   };
 
   return (
     <div className="container-fluid">
-      <h1 className="text-center text-dark py-3 display-2">Add Post</h1>
+      <h1 className="text-center text-dark py-3 display-2">Add User</h1>
       <div className="row">
         <div className="col-md-6 p-5 mx-auto shadow">
           <form onSubmit={handleSubmit}>
@@ -78,7 +78,7 @@ const AddPost = ({ contacts, addContact }) => {
               <input
                 className="btn btn-block btn-dark"
                 type="submit"
-                value="Add Student"
+                value="ADD"
               />
             </div>
           </form>
