@@ -8,6 +8,15 @@ const Navbar = () => {
         <Link to={"/"} className="navbar-brand ml-5">
           Admin Panel
         </Link>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <Link to={"/"} className="navbar-brand ml-2">
+              View Users
+            </Link>
+            <a href="#"> Logout</a>
+          </li>
+        </ul>
       </nav>
     </div>
   );

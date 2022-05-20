@@ -1,11 +1,5 @@
 const initialState = [
-  { id: 0, name: "Md. Yousuf", email: "Yousuf@gmail.com", phone: 1234567890 },
-  {
-    id: 1,
-    name: "Meherab Hossain",
-    email: "Meherab@gmail.com",
-    phone: 4567891230,
-  },
+  
 ];
 
 export const contactReducer = (state = initialState, action) => {
