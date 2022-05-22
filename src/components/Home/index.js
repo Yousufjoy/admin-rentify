@@ -29,12 +29,12 @@ const Home = ({ contacts, deleteContact }) => {
                     <td>{contact.email}</td>
                     <td>{contact.phone}</td>
                     <td>
-                      <Link
+                      {/* <Link
                         to={`/edit/${contact.id}`}
                         className="btn btn-sm btn-primary mr-1"
                       >
                         Edit
-                      </Link>
+                      </Link> */}
                       <button
                         type="button"
                         onClick={() => deleteContact(contact.id)}
