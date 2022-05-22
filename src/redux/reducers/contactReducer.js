@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 const initialState = [];
+=======
+const initialState = [
+  
+];
+>>>>>>> 6d3dade78f07890ce0d2e4109099d491f53749ca
 
 export const contactReducer = (state = initialState, action) => {
   switch (action.type) {
